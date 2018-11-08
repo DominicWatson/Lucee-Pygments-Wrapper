@@ -2,11 +2,13 @@
 
 This simple project provides an interface to the [Python Pygments](http://pygments.org) library for Lucee applications. Example usage:
 
-    highlighted = new PygmentsWrapper().highlight( 
-    	  code            = codeToHighlight
-    	, lexer           = "cfm"
-    	, showLineNumbers = true
-    );
+```js
+highlighted = new PygmentsWrapper().highlight( 
+	  code            = codeToHighlight
+	, lexer           = "cfm"
+   	, showLineNumbers = true
+);
+```
 
 ## Implementation
 
